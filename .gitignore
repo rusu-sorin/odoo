@@ -38,3 +38,13 @@ setup/win32/static/postgresql*.exe
 /man/
 /share/
 /src/
+
+# exclude unneeded i18n and l10n
+*.po
+!ro.po
+!ru.po
+addons/l10n_*
+!addons/l10n_eu_service
+!addons/l10n_generic_coa
+!addons/l10n_multilang
+!addons/l10n_ro
